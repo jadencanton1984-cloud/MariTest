@@ -1,33 +1,83 @@
-﻿# The script of the game goes in this file.
+﻿
+define m = Character("Marites")
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-
-
-# The game starts here.
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    scene rainy city
 
-    scene bg room
+    "After a powerful storm, the city was still trying to recover."
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    "The streets were wet, debris scattered everywhere, and people moved slowly, exhausted from the disaster."
 
-    show eileen happy
+    "Electricity was out in many areas, but somehow, the internet was still working."
 
-    # These display lines of dialogue.
+    show Phone 
 
-    e "You've created a new Ren'Py game."
+    "Phones lit up in the darkness as people searched for updates, news, and distractions."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    show Marites normal
 
-    # This ends the game.
+    "Among them was a girl named Marites."
+
+    "While others were cleaning, repairing, and helping each other, Marites sat quietly, glued to her phone."
+
+    "She scrolled endlessly through social media, bored, restless, and detached from everything happening around her."
+
+    show Marites happy
+
+    "With nothing else to do and no electricity to power the day, her curiosity slowly turned into an idea."
+
+    m "What if I make a harmless joke?"
+
+    m "What if I go viral??"
+
+    m "What if I become instantly famous?"
+
+    "It felt exciting!"
+
+    "Just for fun, {i}no harm{/i}"
+
+    "At least..."
+
+    "That’s what she thought."
+
+    "Using an AI tool, Marites quickly created a deepfake video and images showing the sea completely dried up,"
+
+    "stretching {i}empty{/i} and {i}lifeless.{/i}}"
+
+    "The details were perfect."
+
+    "The shadows looked right."
+
+    "The water was gone, it looked real."
+
+    "{i}too real.{/i}"
+
+    "She stared at the screen, her heart racing"
+
+    m "Oh my God…" "this is it."
+
+    "With one tap..."
+    
+    "{b}she posted it.{/b}"
+
+    "Within minutes, notifications exploded."
+
+    "Shares multiplied. Comments flooded in."
+
+    "People started panicking!"
+
+    "What started as a joke turned into fear, confusion, and chaos!"
+
+    show Marites sad 
+
+    "Marites’ smile slowly faded as she watched the damage unfold on her screen."
+
+    "And in that moment, she realized..."
+
+    "one fake post was enough to change everything."
+
+    
 
     return
