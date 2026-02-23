@@ -34,7 +34,7 @@ label start:
 
     m "What if I become instantly famous?"
 
-    "It felt exciting!"
+    "It felt very exciting!"
 
     "Just for fun, {i}no harm{/i}"
 
