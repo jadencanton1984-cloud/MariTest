@@ -56,7 +56,9 @@ label start:
 
     "She stared at the screen, her heart racing"
 
-    m "Oh my God…" "this is it."
+    m "Oh my God…" 
+    
+    "this is it."
 
     "With one tap..."
     
