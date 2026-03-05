@@ -138,11 +138,11 @@ style window:
     background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
-    xpos gui.name_xpos
+    xpos -160
     xanchor gui.name_xalign
-    xsize gui.namebox_width
-    ypos gui.name_ypos
-    ysize gui.namebox_height
+    xsize 740
+    ypos -390
+    ysize 740
 
     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
     padding gui.namebox_borders.padding
@@ -155,9 +155,9 @@ style say_label:
 style say_dialogue:
     properties gui.text_properties("dialogue")
 
-    xpos gui.dialogue_xpos
+    xpos 485
     xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
+    ypos -15
 
     adjust_spacing False
 
@@ -276,6 +276,10 @@ style quick_button:
 
 style quick_button_text:
     properties gui.text_properties("quick_button")
+    idle_color "#ffffff"        # White
+    insensitive_color "#555555" # Dark gray when disabled
+    outlines [(0.2, "#000000", 0, 0)]
+    hover_color "#e2ed1f"  # Hover color
 
 
 ################################################################################
@@ -1682,3 +1686,7 @@ style slider_vbox:
 style slider_slider:
     variant "small"
     xsize 900
+
+screen quicksettings():
+    imagebutton:
+        idle "images/gui/quicksettings.png"
